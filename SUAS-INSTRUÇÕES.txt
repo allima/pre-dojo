@@ -1,2 +1,7 @@
-Coloque aqui suas instruções ou comentários que ache útil/relevantes para possamos ler 
-quando estivermos avaliando a sua solução
+- Utilize a classe App para rodar aplicação.
+- Utilizei para o parse do arquivo txt FileReader
+- Para logs utilizei Logger (info para logar as entradas de metodos, log WARNING para exceptions)
+- Para o tratamento das linhas criei um REGEX para validar se elas possuem formato válido para o processamento ou não.
+- A ordenacao do vencedor foi feita implementando Comparator na classe Jogador
+- Das tarefas solicitadas implementei o Ranking, mortes feitas pelo player <WORLD>, arma predileta do vencedor e premio para o jogador que não morrer durante uma partida inteira
+- Não configurei frameworks como Spring para injeção de dependência ou outros devido a limitação de tempo, mas acredito que o foco do teste é a solução do problema, mas caso necessário, possuo projeto no BitBucket com frameworks. Também não tive tempo de mapear os jUnits para os testes.
